@@ -27,10 +27,15 @@ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 In text editor input the following;
 
  [server]
+ 
  user = mysql
+ 
  pid-file = /run/mysqld/mysqld.pid
+ 
  socket = /run/mysqld/mysqld.sock
+ 
  basedir = /usr
+ 
  datadir = /var/lib/mysql
  tmpdir = /tmp
  lc-messages-dir = /usr/share/mysql
