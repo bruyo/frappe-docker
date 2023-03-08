@@ -3,11 +3,17 @@
 ## STEP ONE: Installation of dependencies
 RUN;
 sudo apt-get install git
+
 sudo apt-get install python3-dev
+
 sudo apt-get install virtualenv
+
 sudo apt install python3.10-venv
+
 sudo apt-get install software-properties-common
+
 sudo apt install mariadb-server
+
 sudo mysql_secure_installation
 
 ## STEP TWO: MySQL database development files
@@ -15,6 +21,7 @@ RUN
 sudo apt-get install libmysqlclient-dev
 
 ## STEP THREE: Edit the mariadb configuration (unicode character encoding)
+
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 
 In text editor input the following;
