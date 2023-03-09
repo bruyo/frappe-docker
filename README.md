@@ -6,7 +6,7 @@ sudo apt-get install git
 
 sudo apt-get install python3-dev
 
-sudo apt-get install virtualenv
+sudo apt-get install python3-setuptools python3-pip
 
 sudo apt install python3.10-venv
 
