@@ -8,6 +8,8 @@ sudo apt-get install python3-dev
 
 sudo apt-get install python3-setuptools python3-pip
 
+sudo apt-get install virtualenv
+
 sudo apt install python3.10-venv
 
 sudo apt-get install software-properties-common
